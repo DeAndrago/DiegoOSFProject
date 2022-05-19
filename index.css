@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 2px;;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.navbar li {
+    font-size: 18px;
+    display: inline-block;
+    margin: 20px 25px;
+    margin-left: 2px;
+    border-left: 2px;
+    padding-left: 2px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica;
+}
+
+.cart-icon{
+    float: right;
+}
+
+.links {
+    text-decoration: none;
+    color: #3e4444;
+}
+
+.links:hover {
+    background-color:#222831;
+    color: white;
+    padding: 10px 20px 44px;
+}
+
+/* .megaMenu {
+    position: absolute;
+    font-family: Arial, Helvetica;
+    font-size: 12px;
+    background: #222831;
+    color: white;
+    text-transform: uppercase;
+    justify-content: space-between;
+    display: flex;
+} */
+/* .menuDown {
+    background: #222831;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    width: 100%;
+} */
+
+.product {
+    width: 271px;
+    height: 364px;
+    padding: 16px;
+    margin: 16px;  
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 16px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.product-image {
+    width: 270px;
+    height: 260px;
+    background-color: gray;
+}
+
+.product-title {
+    margin-top: 24px;
+    text-align: center;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.product-price {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.product-commentimage {
+    width: 270;
+    height: 365px;
+}
+
+.cart {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cart-content {
+    width: 408px;
+    height: 100vh;
+    background-color: white;
+    float: right;
+}
+
+footer {
+    padding: 10px;
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-bottom: 2rem;
+}
+
+footer a{
+    color:#3e4444;
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+    padding: 5px 35;
+    width: 100%;
+}
+
+footer li{
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-align:justify;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+
+
