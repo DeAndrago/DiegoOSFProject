@@ -1,5 +1,6 @@
-- Hello! This is the project i made for OSF Digital - Frontend Academy. In this project i used the languages: html, css and Javascript.
-- On the first day, i created the navbar, with some visual features, like hover button, it doesn't redirect to another pages because they will be created after.
+- Hello! This is the project i made for OSF Digital - Frontend Academy. In this project i used the languages: HTML, CSS and Javascript.
+- On the first day, i created the navigation bar, with some visual features. Like hover button, it doesn't redirect to another pages because they will be created after.
 - On the second day, i spend some time creating the footer, with the marketplace data (adress, telephones) and the link phrases to other products;
 - On the third day, i changed the plan, and focused on the cart matters (like Product details, images, etc), and working to developing the selling system.
-- On the fourth day, i had problems with git, so i needed to create a new repository. Also i continued to create cart system, with products list and cart content.
+- On the fourth day, i had problems with git, so i needed to create a new repository. Also i continued to create cart system, putting products lists, images and cart content.
+- Also, still on the fourth day, i initiated the cart page creation with a different layout, i will improve this feature to be more accessible.
