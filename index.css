@@ -22,6 +22,7 @@ header {
     padding-left: 2px;
     text-transform: uppercase;
     font-family: Arial, Helvetica;
+ 
 }
 
 .cart-icon {
@@ -30,7 +31,6 @@ header {
 }
 
 .links {
-    text-decoration: none;
     color: #3e4444;
 }
 
@@ -40,23 +40,25 @@ header {
     padding: 10px 20px 44px;
 }
 
-/* .megaMenu {
+.megaMenu {
     position: absolute;
     font-family: Arial, Helvetica;
     font-size: 12px;
     background: #222831;
     color: white;
-    text-transform: uppercase;
     justify-content: space-between;
     display: flex;
-} */
-/* .menuDown {
-    background: #222831;
     text-decoration: none;
+
+}
+
+.menuDown {
+    background: #222831;
     color: white;
     display: flex;
     width: 100%;
-} */
+    text-decoration: none;
+}
 
 .product {
     width: 271px;
@@ -66,10 +68,12 @@ header {
 }
 
 .products-list {
+    border-top: 50px;
+    background-color: #222831;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 16px;
+    padding: 30px;
     margin-left: 250px;
     margin-right: 250px;
 }
@@ -81,15 +85,18 @@ header {
 }
 
 .product-title {
-    margin-top: 24px;
+    margin: 24px;
+    height: 40px;
     text-align: center;
     font-style: normal;
     font-size: 16px;
+    background-color: white;
 }
 
 .product-price {
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
+    background-color: white;
 }
 
 .product-commentimage {
@@ -136,6 +143,54 @@ header {
     padding: 24px;
 }
 
+.cart-products {
+    height: 698px;
+    width: 100%;
+    margin-top: 111px;
+}
+
+.cart-empty {
+    margin-top: 413px;
+}
+
+.empty-title {
+    text-align: center;
+    color: #82b74b;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Arial, Helvetica;
+    font-weight: 600;
+    line height: 160%;
+}
+
+.empty-subtitle {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-style: normal;
+    font-family: Arial, Helvetica;
+    font-weight: 300px;
+    line-height: 130%;
+}
+
+.cart-actions {
+    width: 100%;
+    height: 151px;   
+}
+
+.cart-startbutton {
+    width: 100%;
+    height: 52px;
+    background-color: #82b74b;
+    text-transform: uppercase;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    color: white;
+    margin-top: 70px;
+
+}
 footer {
     padding: 10px;
     width: 80%;
